@@ -61,9 +61,9 @@ function App() {
               i18nProvider={i18nProvider}
               routerProvider={routerBindings}
               liveProvider={liveProvider(ablyClient)}
-              options={{
-              liveMode: "auto",
-            }}
+            //   options={{
+            //   liveMode: "auto",
+            // }}
 
               resources={[
                 {
