@@ -35,7 +35,7 @@ import {
   CategoryShow,
 } from "./pages/categories";
 
-import { ablyClient } from "utility";
+import { ablyClient } from "./utility/ablyClient";
 import { liveProvider } from "@refinedev/ably";
 
 function App() {
